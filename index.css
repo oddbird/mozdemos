@@ -1,0 +1,33 @@
+@import 'remedy.css';
+@import 'fonts.css';
+@import 'colors.css';
+@import 'type.css';
+
+html {
+  align-content: center;
+  display: grid;
+  grid: auto / minmax(min-content, 35em);
+  background:
+    linear-gradient(90deg, white, white) padding-box no-repeat,
+    linear-gradient(
+      to bottom right,
+      var(--moz-blue-dark),
+      var(--moz-purple)
+    ) border-box no-repeat fixed
+  ;
+  border: 1em solid transparent;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1em;
+}
+
+main {
+  padding: 1em;
+}
+
+nav ul {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+  padding: 0;
+}

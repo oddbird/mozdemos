@@ -1,7 +1,8 @@
 /* block ---------------- */
 
 main, div, p {
-/*   outline: 3px dotted; */
+  display: block flow;
+  outline: 3px dotted;
 }
 
 
@@ -9,7 +10,8 @@ main, div, p {
 /* inline ---------------- */
 
 svg, a, em {
-/*   background: bisque;   */
+  display: inline flow;
+  background: bisque;
 }
 
 
@@ -17,13 +19,12 @@ svg, a, em {
 /* floats ---------------- */
 
 svg {
-/*   height: 12em; */
-/*   float: left; */
+  height: 12em;
+  float: left;
 }
 
 div {
-/*   overflow: hidden; */
-/*   display: inline-block */
+  display: block flow-root;
 }
 
 
