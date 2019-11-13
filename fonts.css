@@ -1,0 +1,126 @@
+/* Inter */
+@font-face {
+  font-family: 'Inter';
+  src: url('./_fonts/inter-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./_fonts/inter-bold-webfont.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./_fonts/inter-bolditalic-webfont.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./_fonts/inter-italic-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Zilla */
+@font-face {
+  font-family: 'Zilla Slab';
+  src: url('./_fonts/ZillaSlab-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Zilla Slab';
+  src: url('./_fonts/ZillaSlab-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Zilla Slab';
+  src: url('./_fonts/ZillaSlab-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Zilla Slab';
+  src: url('./_fonts/ZillaSlab-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+/* Highlight */
+@font-face {
+  font-family: 'Zilla Highlight';
+  src: url('./_fonts/ZillaSlabHighlight-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Zilla Highlight';
+  src: url('./_fonts/ZillaSlabHighlight-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+/* Zilla */
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./_fonts/Metropolis-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./_fonts/Metropolis-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./_fonts/Metropolis-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('./_fonts/Metropolis-RegularItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Metropolis Black';
+  src: url('./_fonts/Metropolis-Black.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+/* variables */
+html {
+  --metro: 'Metropolis', sans-serif;
+  --black: 'Metropolis Black', sans-serif;
+  --zilla: 'Zilla Slab', serif;
+  --inter: 'Inter', sans-serif;
+  --highlight: 'Zilla Highlight', serif;
+
+  --body: var(--inter);
+  --ff-title: var(--metro);
+  --ff-strong: var(--black);
+  --moz-title: var(--zilla);
+  --moz-strong: var(--highlight);
+}

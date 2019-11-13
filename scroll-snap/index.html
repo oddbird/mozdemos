@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Scroll Snap</title>
+
+<style>
+html {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+article {
+  scroll-snap-align: center;
+
+  border: 1px solid;
+/*   display: grid; */
+/*   grid: auto-flow auto / fit-content(35em); */
+/*   align-content: center; */
+/*   justify-content: center; */
+  min-height: 50vh;
+  padding: 1em;
+  margin: 1em;
+}
+
+/* Layout */
+* { box-sizing: border-box; }
+</style>
+
+</head>
+<body>
+
+
+<header>
+  <h1>Demo of Scroll-Snapping</h1>
+  <nav>
+    <a href="#type">type</a>
+    <a href="#align">align</a>
+    <a href="#padding">padding</a>
+    <a href="#margin">margin</a>
+    <a href="#stop">stop</a>
+  </nav>
+</header>
+
+<article id="type">
+  <h2>Scroll Snap Type</h2>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, repudiandae iusto! Voluptate modi commodi earum rerum totam facilis fugit, at, velit ipsum, a inventore quod sapiente ut officia sit architecto?</p>
+</article>
+<article id="align">
+  <h2>Scroll Snap Align</h2>
+  <p>Nam possimus maxime veniam velit minima nesciunt atque earum iusto ab quod voluptates aliquam non temporibus magnam consectetur soluta impedit nostrum, at ipsam! Illum maxime quod debitis? Dolorum, ratione reiciendis.</p>
+</article>
+<article id="padding">
+  <h2>Scroll Padding</h2>
+  <p>Quisquam possimus aliquam tempora fuga dolores ullam ducimus voluptatem dolorum voluptates soluta, laborum dolore assumenda deleniti delectus ex perspiciatis quidem, aut reprehenderit. Eius eveniet, quis ipsam assumenda blanditiis tempore dolor?</p>
+</article>
+<article id="margin">
+  <h2>Scroll Margin</h2>
+  <p>Quisquam possimus aliquam tempora fuga dolores ullam ducimus voluptatem dolorum voluptates soluta, laborum dolore assumenda deleniti delectus ex perspiciatis quidem, aut reprehenderit. Eius eveniet, quis ipsam assumenda blanditiis tempore dolor?</p>
+</article>
+<article id="stop">
+  <h2>Scroll Snap Stop</h2>
+  <p>Alias itaque, suscipit ut a ullam nisi quasi dolorem blanditiis accusamus esse, animi vitae excepturi non ab laudantium eum quisquam. Officiis dignissimos rerum quas alias odit dolores suscipit eligendi nobis!</p>
+</article>
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+html {
+  font-family: var(--body);
+  font-size: calc(1em + 0.75vw);
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--title, var(--moz-title));
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+caption, figcaption, label, legend {
+  line-height: 1.375;
+}
+
+strong {
+  font-family: var(--strong, var(--moz-strong));
+}
+
+a {
+  text-underline-offset: 0.1em;
+}

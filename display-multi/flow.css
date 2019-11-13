@@ -1,0 +1,29 @@
+/* block ---------------- */
+
+main, div, p {
+/*   outline: 3px dotted; */
+}
+
+
+
+/* inline ---------------- */
+
+svg, a, em {
+/*   background: bisque;   */
+}
+
+
+
+/* floats ---------------- */
+
+svg {
+/*   height: 12em; */
+/*   float: left; */
+}
+
+div {
+/*   overflow: hidden; */
+/*   display: inline-block */
+}
+
+

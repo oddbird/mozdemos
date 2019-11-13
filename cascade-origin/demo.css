@@ -1,0 +1,19 @@
+/* override user-agent, with lower specificity */
+td {
+/*   border-width: thick; */
+}
+
+
+
+/* override inline styles */
+#inline-style {
+  background: white;
+  color: black;
+}
+
+
+
+/* no way to override UA-important */
+menu[type="context"] {
+/*   display: block !important; */
+}

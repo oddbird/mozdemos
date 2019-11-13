@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cascade: Origin & Importance</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="demo.css">
+  <link rel="stylesheet" href="animate.css">
+</head>
+<body>
+
+  <h1>
+    Cascade <strong>Origin & Importance</strong>
+  </h1>
+
+  <main>
+    <table rules="all">
+      <caption>
+        user-agent border-width is set using:
+        <code>table[rules][rules="all"] > tr > td</code>
+      </caption>
+      <thead>
+        <tr>
+          <th>head</th>
+          <th>head</th>
+          <th>head</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>cell</td>
+          <td>cell</td>
+          <td>cell</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p id="inline-style" style="background: black; color: white;">
+      Inline styles are impossible to override in CSS
+      without <code>!important</code>
+    </p>
+
+    <menu>
+      It will be impossible to display this
+      <code>&lt;menu&gt;</code>
+      if we add
+      <code>type="context"</code>
+    </menu>
+  </main>
+
+</body>
+</html>

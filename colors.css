@@ -1,0 +1,38 @@
+html {
+  /* moz primary */
+  --moz-blue: #00ffff;
+  --moz-yellow: #fff44f;
+  --moz-red: #ff4f5e;
+  --moz-green: #54ffbd;
+  --moz-purple: #6e008b;
+
+  /* moz secondary */
+  --moz-green-dark: #005e5e;
+  --moz-blue-dark: #00458b;
+  --moz-grey-dark: #959595;
+  --moz-grey-light: #e7e5e2;
+
+  /* firefox light/dark */
+  --ff-green-light: #E3FFF3;
+  --ff-green-dark: #005E5D;
+  --ff-blue-light: #ACF1FF;
+  --ff-blue-dark: #073072;
+  --ff-lavender-light: #E6DFFF;
+  --ff-lavender-dark: #46278E;
+  --ff-purple-light: #F7E3FF;
+  --ff-purple-dark: #4D1A69;
+  --ff-pink-light: #FFDFF0;
+  --ff-pink-dark: #7F165B;
+  --ff-red-light: #FFE0E8;
+  --ff-red-dark: #800220;
+  --ff-orange-light: #FFF4DE;
+  --ff-orange-dark: #9D280C;
+  --ff-yellow-light: #FFFFCD;
+  --ff-yellow-dark: #A7341F;
+
+  /* signals */
+  --click: #0060df;
+  --success: #3fe1b0;
+  --warning: #ffea80;
+  --error: #ff6a75;
+}
