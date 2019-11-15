@@ -1,0 +1,44 @@
+/* Style the text of any marker */
+::marker {
+  color: red;
+
+  /* box styling doesn't work */
+  /* unless you go to `about:config` in Firefox & toggle `layout.css.marker.restricted` to `false` */
+  background: lightskyblue;
+  padding: 0 0.25em;
+}
+
+/* unordered lists */
+ul li::marker {
+  content: '🐱';
+
+  /* see note about marker boxes… */
+  margin-right: 0.25em;
+}
+
+/* ordered lists */
+ol li::marker {
+  content: counters(list-item, '.') ' »';
+/*   direction: rtl; */
+}
+
+ol li {
+  padding-left: 0.4em;
+}
+
+/* counting h2s */
+html {
+  counter-reset: heading2 -1;
+}
+
+h2::marker {
+  content: 'fig.' counter(heading2, upper-roman);
+  font-style: italic;
+  font-size: 0.75em;
+}
+
+h2 {
+  display: list-item;
+  padding-left: 0.25em;
+  counter-increment: heading2;
+}

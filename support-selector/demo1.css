@@ -1,0 +1,37 @@
+::marker {
+  color: red;
+  font-family: cursive;
+  content: '✅';
+}
+
+
+@supports selector(::marker) {
+  li {
+    padding-left: 0.5em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@supports selector(::marker) {
+  li {
+/*     padding-left: 0.4em; */
+  }
+
+  ::marker {
+/*     color: green; */
+  }
+}
