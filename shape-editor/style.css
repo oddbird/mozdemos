@@ -1,0 +1,32 @@
+@import '../remedy.css';
+@import '../fonts.css';
+@import '../colors.css';
+@import '../type.css';
+
+html {
+  --title: var(--ff-title);
+  --strong: var(--ff-strong);
+  align-content: center;
+  display: grid;
+  grid: auto / minmax(min-content, 35em);
+  background:
+    linear-gradient(90deg, white, white) padding-box no-repeat,
+    linear-gradient(
+      to bottom right,
+      var(--ff-pink-dark),
+      var(--ff-orange-dark)
+    ) border-box no-repeat fixed
+  ;
+  border: 1em solid transparent;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1em;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+figure {
+  margin-inline: 0;
+}
