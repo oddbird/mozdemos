@@ -1,11 +1,8 @@
 
 .gwen {
   float: left;
-  border-radius: 100%;
-  shape-outside: inset(0 0 0 0 round 100%);
-  
-/*   shape-outside: polygon(0 0, 100% 0, 100% 100%); */
-  
+  /* shape-outside: inset(0% 0% 0% 0%); */
+  shape-outside: polygon(0 0, 100% 0, 100% 100%);
   margin-inline-end: 1em;
   min-width: 13em;
   width: 30%;

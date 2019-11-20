@@ -5,11 +5,11 @@
 
 body {
   font-family: cursive;
-  padding: 4em;
+/*   padding: 4em; */
 }
 
 
 h2 {
-  outline: 4px dotted rebeccapurple;
-  font: inherit;
+/*   outline: 4px dotted rebeccapurple; */
+/*   font: inherit; */
 }

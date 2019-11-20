@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Firefox Cascade Inspector</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+
+  <h1>
+    Firefox <strong>Cascade Inspector</strong>
+  </h1>
+
+  <main>
+    <section id="declared" class="demo-section">
+      <h2>
+        <strong>Declared Rules</strong> by Specificity
+      </h2>
+      <p>
+        At the top of the rule panel,
+        we can see directly targeted selector-blocks
+        sorted by their relative weight:
+        a combination of specificity and source-order.
+        Generally rules higher up in the panel
+        will overrive rules lower down.
+      </p>
+    </section>
+
+    <section id="inherited" class="demo-section inherited">
+      <h2 style="color: rebeccapurple">
+        <strong>Inherited Rules</strong> by Distance
+      </h2>
+      <p>
+        Below the targeted rules
+        we can see inherited properties from ancestor selectors:
+        from the closest parent
+        all the way back to the document root.
+        The closest ancestor will always win.
+      </p>
+    </section>
+
+    <section id="computed" class="demo-section">
+      <h2>
+        <strong>Computed Values</strong> for User Agent Styles
+      </h2>
+      <p>
+        UA Styles do not appear in the rule panel,
+        but can be seen in the Computed panel.
+      </p>
+    </section>
+  </main>
+
+</body>
+</html>

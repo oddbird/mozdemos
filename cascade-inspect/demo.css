@@ -1,0 +1,14 @@
+
+#declared {
+  outline-style: dashed;
+}
+
+.inherited {
+  outline-style: solid;
+  outline-offset: 1em !important;
+}
+
+.demo-section {
+  outline: 0.125em dotted currentColor;
+  outline-offset: 0.25em;
+}
